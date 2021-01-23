@@ -2,16 +2,15 @@
 import React, {component} from 'react'
 
 export default class DelayedButton extends React.Component {
- constructor(){
-   super()
-   
-   
+ 
+ handleClick = (e) =>{
+   setTimout()
  }
  
  render(){
    return (
      <div>
-     
+     <button onClick={handleClick}>click </button>
      </div>
      )
  }

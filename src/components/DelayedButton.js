@@ -4,7 +4,7 @@ import React, {component} from 'react'
 export default class DelayedButton extends React.Component {
  
  handleClick = (e) =>{
-   window.setTimout(()=>this.props.onDelayedClick(e), this.props.delay)
+   window.setTimout(()=>{this.props.onDelayedClick(e)}, this.props.delay)
  }
  
  render(){

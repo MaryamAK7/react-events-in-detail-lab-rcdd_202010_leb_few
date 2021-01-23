@@ -2,16 +2,12 @@
 import React, {component} from 'react'
 
 export default class CoordinatesButton extends React.Component {
- constructor(){
-   super()
-   
-   
- }
+ 
  
  render(){
    return (
      <div>
-     
+     <button onClick=""
      </div>
      )
  }
